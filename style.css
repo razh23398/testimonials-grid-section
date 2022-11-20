@@ -1,0 +1,181 @@
+body{
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* text */
+h1{
+  font-weight: 600;
+  font-size: 20px;
+}
+h2{
+  font-weight: 500;
+  font-size: 14px;
+}
+p{
+  font-weight: 500;
+  font-size: 13px;
+  color: hsl(0, 0%, 81%);
+}
+/* images */
+img{
+  height: 45px;
+  border-radius: 100%;
+  border: solid 2px;
+  margin-right: 20px;
+}
+.daniel{
+  border-color: hsl(263, 55%, 70%);
+}
+.jonathan{
+  border-color: hsl(217, 19%, 35%);
+}
+.jeanette{
+  border-color: hsl(0, 0%, 100%);
+}
+.patrick{
+  border-color: hsl(263, 55%, 70%);
+}
+.kira{
+  border-color: hsl(0, 0%, 100%);
+}
+/* containers */
+.main{
+  max-width: 1400px;
+}
+.head1{
+  display: flex;
+}
+.left{
+  width: 70%;
+}
+.right{
+  padding: 0;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+}
+.up{
+  margin-bottom: 25px;
+}
+.down{
+}
+
+/* daniel-clifford */
+.daniel-clifford{
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(210, 46%, 95%);
+  padding: 30px;
+  margin-right: 25px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+/* jonathan-walters */
+.jonathan-walters{
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+  padding: 30px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+/* jeanette-harmon */
+.jeanette-harmon{
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+/* patrick-abrams */
+.patrick-abrams{
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(210, 46%, 95%);
+  padding: 30px;
+  margin-left: 25px;
+  max-width: 600px;
+  border-radius: 10px;
+
+}
+/* kira-whittle */
+.kira-whittle{
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1078px) {
+  body{
+    height: 100%;
+  }
+  .main{
+    display: inline;
+    margin-bottom: 25px;
+  }
+  .left{
+    width: 100%;
+  }
+  /* up div */
+  .up{
+    display: inline;
+  }
+  .daniel-clifford{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+  .jonathan-walters{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px
+  }
+  /* down div */
+  .down{
+    display: inline;
+  }
+  .jeanette-harmon{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    margin-bottom: 25px;
+  }
+  .patrick-abrams{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* right div */
+  .right{
+    width: 600px;
+    max-width: 600px;
+    display: inline;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .kira-whittle{
+    width: 600px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 640px) {
+  .daniel-clifford{
+    max-width: 300px;
+}
+  .jonathan-walters{
+    max-width: 300px;
+}
+  .jeanette-harmon{
+    max-width: 300px;
+}
+  .patrick-abrams{
+    max-width: 300px;
+}
+  .kira-whittle{
+    max-width: 300px;
+}
